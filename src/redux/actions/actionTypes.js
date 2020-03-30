@@ -1,0 +1,4 @@
+export const OPENDETAILS = "OPENDETAILS";
+export const RETURNLIST = "RETURNLIST";
+export const CHANGEPRESENT = "CHANGEPRESENT";
+export const CHANGETAB = "CHANGETAB";

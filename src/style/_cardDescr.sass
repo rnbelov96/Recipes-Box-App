@@ -1,0 +1,45 @@
+.cardDescr
+  margin-top: 15px
+  border: 1px solid rgba(0, 0, 0, 0.125)
+  border-radius: 0.25rem
+  padding: 20px 0px
+  position: relative
+  &__img
+    display: block
+    width: 40%
+  &__mainBlock
+    width: 55%
+  &__tabs
+    div, a
+      width: 32.5%
+      border-radius: 5px
+      text-align: center
+      background-color: #28a745
+      height: 40px
+      display: flex
+      align-items: center
+      justify-content: center
+      transition: background-color 0.25s
+      color: white !important
+      text-decoration: none
+      &:hover
+        cursor: pointer
+        background-color: #1a632b
+        text-decoration: none
+  &__title
+    text-align: center
+    color: #28a745
+  &__info
+    margin-top: 10px
+    background-color: #8abf77
+    border-radius: 5px
+    padding: 10px
+    font-size: 25px
+    ul, ol
+      margin-bottom: 0
+  &__close
+    position: absolute
+    right: 30px
+    top: 15px
+    font-size: 20px
+    cursor: pointer
